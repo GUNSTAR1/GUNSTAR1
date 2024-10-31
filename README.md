@@ -1,8 +1,5 @@
-##
-▗▄▄▖▗▖ ▗▖▗▖  ▗▖ ▗▄▄▖▗▄▄▄▖▗▄▖ ▗▄▄▖ 
-▐▌   ▐▌ ▐▌▐▛▚▖▐▌▐▌     █ ▐▌ ▐▌▐▌ ▐▌
-▐▌▝▜▌▐▌ ▐▌▐▌ ▝▜▌ ▝▀▚▖  █ ▐▛▀▜▌▐▛▀▚▖
-▝▚▄▞▘▝▚▄▞▘▐▌  ▐▌▗▄▄▞▘  █ ▐▌ ▐▌▐▌ ▐▌
+## Look at all these different lengths of wire I used.. 
+
 
 <!--
 **GUNSTAR1/GUNSTAR1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
