@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=280&section=header&text=GUNSTAR1&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Writing%20Code%20Close%20to%20the%20Metal&descSize=22&descAlignY=60&descAlign=50" width="100%" alt="Header banner"/>
+<img src="./assets/header.svg" width="100%" alt="Header banner"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=👋+Welcome+to+my+GitHub+Profile!;⚙️+Java+%7C+Swift+%7C+C%23+%7C+Rust+%7C+ASM;🚀+Building+things+one+commit+at+a+time...)](https://git.io/typing-svg)
 
@@ -8,10 +8,13 @@
 
 </div>
 
+# Hey there!
 
-Welcome to my corner of GitHub. I design and build infrastructure, then i get to try and break it. In 20 years of computing, i haven't been able to satisfy my curiosity to dream, create and build. 
+*Look at all these different lengths of wire I used..*
 
+Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly, and most of it works on the first try (after the fifth try).
 
+> *"Talk is cheap. Show me the code."* ― Linus Torvalds
 
 ### The Tech Stack
 *The tools I use to build things:*
