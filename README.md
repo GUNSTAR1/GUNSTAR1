@@ -8,11 +8,10 @@
 
 # Hey there!
 
-*Look at all these different lengths of wire I used..*
 
-Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly, and most of it works on the first try (after the fifth try).
+Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly, 
 
-> *"Talk is cheap. Show me the code."* ― Linus Torvalds
+
 
 ### The Tech Stack
 *The tools I use to build things:*
