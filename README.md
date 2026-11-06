@@ -8,9 +8,6 @@
 
 </div>
 
-# Hey there!
-
-*Look at all these different lengths of wire I used..*
 
 Welcome to my corner of GitHub. I design and build infrastructure, then i get to try and break it. In 20 years of computing, i haven't been able to satisfy my curiosity to dream, create and build. 
 
