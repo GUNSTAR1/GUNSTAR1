@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=👋+Welcome+to+my+GitHub+Profile!;⚙️+Java+%7C+Swift+%7C+C%23+%7C+Rust+%7C+ASM;🚀+Building+things+one+commit+at+a+time...)](https://git.io/typing-svg)
 
-<p align="center"><img src="https://komarev.com/ghpvc/?username=GUNSTAR1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /></p>
+<p align="center"><img src="https://komarev.com/ghpvc/?username=GUNSTAR&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /></p>
 
 </div>
 
