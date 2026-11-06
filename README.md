@@ -9,7 +9,7 @@
 # Hey there!
 
 
-Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly.  You'll get to meet me if you attend Defcon or Saintcon.  Sometimes i'm even breaking things at 801 Labs. 
+Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly.  You'll get to meet me if you attend Defcon or Saintcon.  Sometimes I'm even breaking things at 801 Labs. I'm also a late night owl participating in TraceLabs finding missing persons or failing miserably at the CTF challenge. 
 
 "The only way out.. Is through.."
 
