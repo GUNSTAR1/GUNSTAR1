@@ -9,9 +9,9 @@
 # Hey there!
 
 
-Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly, 
+Welcome to my corner of GitHub. I write everything from high-level apps down to hand-tuned assembly.  You'll get to meet me if you attend Defcon or Saintcon.  Sometimes i'm even breaking things at 801 Labs. 
 
-
+"The only way out.. Is through.."
 
 ### The Tech Stack
 *The tools I use to build things:*
