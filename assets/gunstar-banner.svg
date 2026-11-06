@@ -42,5 +42,5 @@
     <rect width="1200" height="300" fill="url(#shade)"/>
     <rect class="flicker" width="1200" height="300" fill="#ff2a8a"/>
   </g></g>
-  <text class="title" x="600" y="140" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">GUNSTAR1</text>
+  <text class="title" x="600" y="140" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">GUNSTAR</text>
 </svg>
