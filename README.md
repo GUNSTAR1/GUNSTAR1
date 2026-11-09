@@ -38,3 +38,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
 ![GitHub Contributions](https://isometric-contributions-spectrewolf8.onrender.com/api/graph?username=GUNSTAR1&stats=true&credit=true)
 
 ---
+
+### GitHub Trophies
+
+[![GitHub trophies](https://trophygithubreadmelang.cybee.dpdns.org/?username=GUNSTAR1&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
