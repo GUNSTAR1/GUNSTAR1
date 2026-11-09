@@ -42,3 +42,11 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
 ### GitHub Trophies
 
 [![GitHub trophies](https://trophygithubreadmelang.cybee.dpdns.org/?username=GUNSTAR1&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+### Public activity highlights
+
+These ranks come from the third-party [lowlighter/metrics achievements plugin](https://github.com/lowlighter/metrics/blob/v3.34/source/plugins/achievements/README.md). GitHub does not publish or endorse them.
+
+<p align="center">
+  <img src="./assets/metrics-achievements.svg" alt="Third-party public activity highlights for GUNSTAR1 from the lowlighter/metrics achievements plugin." />
+</p>
