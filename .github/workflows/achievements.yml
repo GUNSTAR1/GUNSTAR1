@@ -1,0 +1,41 @@
+name: render activity highlights
+
+on:
+  # refresh once a day, half an hour after the contribution snake
+  schedule:
+    - cron: "30 0 * * *"
+  # run it by hand from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  render:
+    # contents: write lets the built-in token commit the SVG in this repository.
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: render achievements svg
+        # v3.34, the current stable release, pinned by commit so the tag cannot move.
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          # Classic personal access token with no scopes checked.
+          # Store it as the repository secret METRICS_TOKEN.
+          # This release rejects the built-in GITHUB_TOKEN for this input because that
+          # token does not return an x-oauth-scopes header, and it rejects fine-grained
+          # personal access tokens because they cannot call the GraphQL API.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Commits the SVG only. This token does not collect profile data.
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          user: ${{ github.repository_owner }}
+          # Stay off the output branch. The snake workflow replaces that branch on each run.
+          filename: assets/metrics-achievements.svg
+          # An empty base hides the default header, activity, community, repositories, and metadata cards.
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_threshold: C
+          # Rank "$" highlights are public easter eggs in this plugin, such as a published GPG key.
+          plugin_achievements_secrets: yes
