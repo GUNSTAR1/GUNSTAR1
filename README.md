@@ -28,6 +28,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="https://skillicons.dev/icons?i=html" alt="HTML5" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=ps" alt="Photoshop" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" height="48" />&nbsp;
+  <img src="./assets/flipperzero.png" alt="Flipper Zero" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=azure" alt="Azure" height="48" />&nbsp;
