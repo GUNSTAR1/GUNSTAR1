@@ -33,6 +33,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=grafana" alt="Grafana" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=notion" alt="Notion" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=obsidian" alt="Obsidian" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" height="48" />&nbsp;
   <img src="./assets/starlink.png" alt="Starlink" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=redhat" alt="Red Hat" height="48" />&nbsp;
