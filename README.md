@@ -80,7 +80,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
 
 ### GitHub Trophies
 
-[![GitHub trophies](https://trophygithubreadmelang.cybee.dpdns.org/?username=GUNSTAR1&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub trophies](https://trophygithubreadmelang.cybee.dpdns.org/?username=GUNSTAR1&theme=onedark&column=7&title=-Issues,-Reviews)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### Public activity highlights
 
