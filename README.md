@@ -41,7 +41,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="https://skillicons.dev/icons?i=php" alt="PHP" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=md" alt="Markdown" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=apple" alt="macOS" height="48" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=autocad" alt="Autodesk AutoCAD" height="48" />&nbsp;
+  <img src="./assets/autocad.png" alt="Autodesk AutoCAD" height="48" />&nbsp;
   <img src="./assets/inventor.png" alt="Autodesk Inventor" height="48" />&nbsp;
   <img src="./assets/solidworks.svg" alt="SolidWorks" height="48" />&nbsp;
   <img src="./assets/bambulab.svg" alt="Bambu Lab" height="48" />&nbsp;
