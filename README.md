@@ -51,7 +51,8 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="./assets/magnet.png" alt="Magnet Forensics" height="48" />&nbsp;
   <img src="./assets/accessdata.png" alt="AccessData" height="48" />&nbsp;
   <img src="./assets/vmware.png" alt="VMware" height="48" />&nbsp;
-  <img src="./assets/lucidchart.svg" alt="Lucidchart" height="48" />
+  <img src="./assets/lucidchart.svg" alt="Lucidchart" height="48" />&nbsp;
+  <img src="./assets/comfyui.png" alt="ComfyUI" height="48" />
 </p>
 
 ## My contribution history, two ways
