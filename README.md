@@ -61,8 +61,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="./assets/xai.png" alt="xAI" height="48" />&nbsp;
   <img src="./assets/cursor.svg" alt="Cursor" height="48" />&nbsp;
   <img src="./assets/grok.svg" alt="Grok" height="48" />&nbsp;
-  <img src="./assets/openbot.svg" alt="OpenBot" height="48" />&nbsp;
-  <img src="./assets/claude.svg" alt="Claude" height="48" />
+  <img src="./assets/openbot.svg" alt="OpenBot" height="48" />
 </p>
 
 ## My contribution history, two ways
