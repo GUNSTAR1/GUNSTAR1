@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <path d="M40 150 C 90 120, 160 80, 220 50" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="220" cy="50" r="12" fill="#FFFFFF"/>
+  <text x="128" y="212" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="3" fill="#FFFFFF">STARLINK</text>
+</svg>

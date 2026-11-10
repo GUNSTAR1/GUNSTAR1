@@ -22,7 +22,24 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="https://skillicons.dev/icons?i=cs" alt="C#" height="48" />&nbsp;
   <img src="./assets/asm.svg" alt="Assembly" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=python" alt="Python" height="48" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=rust" alt="Rust" height="48" />
+  <img src="https://skillicons.dev/icons?i=rust" alt="Rust" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML5" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=ps" alt="Photoshop" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=azure" alt="Azure" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=grafana" alt="Grafana" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=notion" alt="Notion" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" height="48" />&nbsp;
+  <img src="./assets/starlink.svg" alt="Starlink" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=redhat" alt="Red Hat" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=stackoverflow" alt="Stack Overflow" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=php" alt="PHP" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=md" alt="Markdown" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=apple" alt="macOS" height="48" />
 </p>
 
 ## My contribution history, two ways
