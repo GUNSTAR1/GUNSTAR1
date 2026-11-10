@@ -47,7 +47,8 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="./assets/bambulab.svg" alt="Bambu Lab" height="48" />&nbsp;
   <img src="./assets/huntress.png" alt="Huntress" height="48" />&nbsp;
   <img src="./assets/sentinelone.png" alt="SentinelOne" height="48" />&nbsp;
-  <img src="./assets/vmware.png" alt="VMware" height="48" />
+  <img src="./assets/vmware.png" alt="VMware" height="48" />&nbsp;
+  <img src="./assets/lucidchart.svg" alt="Lucidchart" height="48" />
 </p>
 
 ## My contribution history, two ways
