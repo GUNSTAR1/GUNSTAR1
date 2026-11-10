@@ -54,7 +54,8 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="./assets/lucidchart.svg" alt="Lucidchart" height="48" />&nbsp;
   <img src="./assets/comfyui.png" alt="ComfyUI" height="48" />&nbsp;
   <img src="./assets/ollama.svg" alt="Ollama" height="48" />&nbsp;
-  <img src="./assets/xai.png" alt="xAI" height="48" />
+  <img src="./assets/xai.png" alt="xAI" height="48" />&nbsp;
+  <img src="./assets/cursor.svg" alt="Cursor" height="48" />
 </p>
 
 ## My contribution history, two ways
