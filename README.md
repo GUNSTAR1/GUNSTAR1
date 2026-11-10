@@ -20,6 +20,7 @@ Welcome to my corner of GitHub. I write everything from high-level apps down to 
   <img src="https://skillicons.dev/icons?i=java" alt="Java" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=swift" alt="Swift" height="48" />&nbsp;
   <img src="./assets/xcode.png" alt="Xcode" height="48" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=cs" alt="C#" height="48" />&nbsp;
   <img src="./assets/asm.svg" alt="Assembly" height="48" />&nbsp;
   <img src="https://skillicons.dev/icons?i=python" alt="Python" height="48" />&nbsp;
