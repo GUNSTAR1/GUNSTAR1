@@ -16,6 +16,24 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      # v3.34 still asks GitHub for Projects (classic), which GitHub removed, so the whole
+      # achievements query fails with "Unexpected error". Upstream is unmaintained (fix PRs
+      # lowlighter/metrics#1769 and #1834 are unmerged), so patch the one field here:
+      # alias projectsV2 as "projects" so the plugin code keeps working unchanged.
+      # The action reuses this local metrics:3.34.0 image when use_prebuilt_image is off.
+      - name: build patched metrics image
+        run: |
+          set -euo pipefail
+          base=ghcr.io/lowlighter/metrics@sha256:b8013996b12be3ea049fad2e18db6b31083575a197e43ed63a690a094b9164fb
+          query=/metrics/source/plugins/achievements/queries/achievements.graphql
+          docker pull "$base"
+          docker build -t metrics:3.34.0 - <<EOF
+          FROM $base
+          RUN grep -q "^    projects(first: 1" $query \
+           && sed -i "s/^    projects(first: 1/    projects: projectsV2(first: 1/" $query \
+           && grep -q "projects: projectsV2" $query
+          EOF
+
       - name: render achievements svg
         # v3.34, the current stable release, pinned by commit so the tag cannot move.
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
@@ -34,6 +52,8 @@ jobs:
           filename: assets/metrics-achievements.svg
           # An empty base hides the default header, activity, community, repositories, and metadata cards.
           base: ""
+          # Use the patched local image built in the previous step.
+          use_prebuilt_image: no
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
