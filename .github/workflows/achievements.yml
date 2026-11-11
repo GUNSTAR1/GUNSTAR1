@@ -55,7 +55,7 @@ jobs:
           # Use the patched local image built in the previous step.
           use_prebuilt_image: no
           plugin_achievements: yes
-          plugin_achievements_display: detailed
+          plugin_achievements_display: compact
           plugin_achievements_threshold: C
           # Rank "$" highlights are public easter eggs in this plugin, such as a published GPG key.
           plugin_achievements_secrets: yes
