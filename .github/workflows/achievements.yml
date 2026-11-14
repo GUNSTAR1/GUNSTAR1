@@ -20,18 +20,24 @@ jobs:
       # achievements query fails with "Unexpected error". Upstream is unmaintained (fix PRs
       # lowlighter/metrics#1769 and #1834 are unmerged), so patch the one field here:
       # alias projectsV2 as "projects" so the plugin code keeps working unchanged.
+      # Also fix Deployer: it reads a deployment total that v3.34 only computes after the
+      # plugins run, so it is always 0. Count deployments straight from the fetched repos.
       # The action reuses this local metrics:3.34.0 image when use_prebuilt_image is off.
       - name: build patched metrics image
         run: |
           set -euo pipefail
           base=ghcr.io/lowlighter/metrics@sha256:b8013996b12be3ea049fad2e18db6b31083575a197e43ed63a690a094b9164fb
           query=/metrics/source/plugins/achievements/queries/achievements.graphql
+          users=/metrics/source/plugins/achievements/list/users.mjs
           docker pull "$base"
           docker build -t metrics:3.34.0 - <<EOF
           FROM $base
           RUN grep -q "^    projects(first: 1" $query \
            && sed -i "s/^    projects(first: 1/    projects: projectsV2(first: 1/" $query \
-           && grep -q "projects: projectsV2" $query
+           && grep -q "projects: projectsV2" $query \
+           && grep -q "computed.repositories?.deployments" $users \
+           && sed -i "s/computed.repositories?.deployments/data.user.repositories.nodes.reduce((sum, repository) => sum + (repository.deployments?.totalCount ?? 0), 0)/" $users \
+           && ! grep -q "computed.repositories?.deployments" $users
           EOF
 
       - name: render achievements svg
@@ -57,7 +63,10 @@ jobs:
           # Count forked repositories too, so Polyglot, Deployer and Inspirer see their languages,
           # deployments and fork counts (own public repos have none of these).
           repositories_forks: yes
-          debug: yes
+          # GitHub times out a 100-repo query (~10s limit) and v3.34 then gives up with 0 repos
+          # instead of retrying smaller, so ask for one page of 40 (about 5s).
+          repositories: 40
+          repositories_batch: 40
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
